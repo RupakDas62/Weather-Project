@@ -87,11 +87,11 @@ async function fetchNote() {
 
         // Minimum Temperature
         let minTempApi = result.main.temp_min - 273.15;
-        minTemp.innerHTML = `${Math.floor(minTempApi)}&deg;
+        minTemp.innerHTML = `${Math.floor(minTempApi)}&deg`;
 
         // Maximum Temperature
         let maxTempApi = result.main.temp_min - 273.15;
-        maxTemp.innerHTML = `${Math.floor(maxTempApi)}&deg;C`
+        maxTemp.innerHTML = `${Math.floor(maxTempApi)}&deg`;
 
 
         //  PROCESS IMAGE FROM API RESULT.MAIN
