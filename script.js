@@ -87,7 +87,7 @@ async function fetchNote() {
 
         // Minimum Temperature
         let minTempApi = result.main.temp_min - 273.15;
-        minTemp.innerHTML = `${Math.floor(minTempApi)}&deg;./assets/C`;
+        minTemp.innerHTML = `${Math.floor(minTempApi)}&deg;
 
         // Maximum Temperature
         let maxTempApi = result.main.temp_min - 273.15;
