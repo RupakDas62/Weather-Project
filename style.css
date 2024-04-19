@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+button {
+    height: 40px;
+    width: 100px;
+}
+.card-container {
+    height: 650px;
+    width: 400px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.card {
+    height: 650px;
+    width: 350px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+input {
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 12px 0px 0px 0px;
+    background-color: rgb(204, 236, 236);
+    border: none;
+    padding-left: 15px;
+    box-shadow: 5px 5px 5px 3px rgb(220, 220, 220);
+}
+input::placeholder {
+    color: black;
+    font-weight: 500;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-size: medium;
+}
+#search {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(204, 236, 236);
+    border: none;
+    box-shadow: 5px 5px 5px 3px rgb(220, 220, 220);
+    margin-left: 5px;
+}
+.location-not-found {
+    display: none;
+}
+.location-not-found img {
+    height: 220px;
+    width: 220px;
+}
+.image img {
+    height: 220px;
+    width: 220px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background: transparent;
+}
+.actual-temp {
+    font-size: 40px;
+    font-weight: 600;
+}
+.feels-like {
+    height: 30px;
+    width: 146px;
+    margin-top: -15px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(198, 223, 245, 0.353);
+    border-radius: 8px;
+    padding: 3px 5px;
+    text-align: center;
+}
+.description {
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-top: -10px; */
+}
+.first-row-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.humidity{
+    height: 50px;
+    width: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+    background-color: rgba(236, 236, 236, 0.378);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(183, 183, 183);
+}
+.icon i {
+    font-size: 25px;
+    margin-top: 5px;
+}
+.humidity humidity-amount {
+    display: flex;
+    flex-direction: column;
+    
+}
+.humidity-amount p {
+    margin-top: -10px;
+    font-weight: 600;
+}
+.humidity-amount span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.wind-speed {
+    height: 50px;
+    width: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: rgba(236, 236, 236, 0.378);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(183, 183, 183);
+}
+.wind-speed wind-speed-amount {
+    display: flex;
+    flex-direction: column;
+    
+}
+.wind-speed-amount p {
+    margin-top: -10px;
+    font-weight: 600;
+}
+.wind-speed-amount span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.second-row-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.temp-min{
+    height: 50px;
+    width: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+    background-color: rgba(236, 236, 236, 0.378);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(183, 183, 183);
+}
+.temp-min-amount p {
+    margin-top: -10px;
+    font-weight: 600;
+}
+.temp-min-amount span {
+    font-weight: 700;
+    font-size: 20px;
+}
+.temp-max{
+    height: 50px;
+    width: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+    background-color: rgba(236, 236, 236, 0.378);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(183, 183, 183);
+}
+.temp-max-amount p {
+    margin-top: -10px;
+    font-weight: 600;
+}
+.temp-max-amount span {
+    font-weight: 700;
+    font-size: 20px;
+}
